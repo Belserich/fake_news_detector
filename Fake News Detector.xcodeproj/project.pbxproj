@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148199992151B369C448F680 /* Pods_Fake_News_Detector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A150B27A6260BD23835F91 /* Pods_Fake_News_Detector.framework */; };
+		57043BF72290E606007E2671 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57043BF62290E606007E2671 /* ShareViewController.swift */; };
+		57043BFA2290E606007E2671 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57043BF82290E606007E2671 /* MainInterface.storyboard */; };
+		57043BFE2290E606007E2671 /* AwareNews.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 57043BF42290E606007E2671 /* AwareNews.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		57043C042290F030007E2671 /* Provider+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57043C032290F030007E2671 /* Provider+Type.swift */; };
+		57043C0622913769007E2671 /* ATabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57043C0522913769007E2671 /* ATabController.swift */; };
+		57043C0E22914FB5007E2671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57043C0D22914FB5007E2671 /* GoogleService-Info.plist */; };
+		57043C0F22914FB5007E2671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57043C0D22914FB5007E2671 /* GoogleService-Info.plist */; };
 		572B7DCA22904D0F00CB5C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DC922904D0F00CB5C6E /* AppDelegate.swift */; };
 		572B7DCC22904D0F00CB5C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DCB22904D0F00CB5C6E /* ViewController.swift */; };
 		572B7DCF22904D0F00CB5C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572B7DCD22904D0F00CB5C6E /* Main.storyboard */; };
@@ -14,9 +22,20 @@
 		572B7DD422904D1000CB5C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572B7DD222904D1000CB5C6E /* LaunchScreen.storyboard */; };
 		572B7DDF22904D1000CB5C6E /* Fake_News_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DDE22904D1000CB5C6E /* Fake_News_DetectorTests.swift */; };
 		572B7DEA22904D1000CB5C6E /* Fake_News_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DE922904D1000CB5C6E /* Fake_News_DetectorUITests.swift */; };
+		572B7DF82290637800CB5C6E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DF72290637800CB5C6E /* ResultsViewController.swift */; };
+		572B7DFC229099E600CB5C6E /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B7DFB229099E600CB5C6E /* FeedbackViewController.swift */; };
+		773834D017A708B063076E5F /* Pods_Fake_News_DetectorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D232C69E516465806337BE3 /* Pods_Fake_News_DetectorUITests.framework */; };
+		9F4990C3FF82133E4E146F5A /* Pods_Fake_News_DetectorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4539D84EEA118E96FF889E /* Pods_Fake_News_DetectorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		57043BFC2290E606007E2671 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572B7DBE22904D0F00CB5C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57043BF32290E606007E2671;
+			remoteInfo = AwareNews;
+		};
 		572B7DDB22904D1000CB5C6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 572B7DBE22904D0F00CB5C6E /* Project object */;
@@ -33,7 +52,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		575AAA902290DD560013889D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				57043BFE2290E606007E2671 /* AwareNews.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0BE2D474DDD2CD2942E314E2 /* Pods-Fake News DetectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News DetectorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fake News DetectorUITests/Pods-Fake News DetectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57043BEF2290E2FA007E2671 /* Fake News Detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fake News Detector.entitlements"; sourceTree = "<group>"; };
+		57043BF42290E606007E2671 /* AwareNews.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AwareNews.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		57043BF62290E606007E2671 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		57043BF92290E606007E2671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		57043BFB2290E606007E2671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57043C022290E6A5007E2671 /* AwareNews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AwareNews.entitlements; sourceTree = "<group>"; };
+		57043C032290F030007E2671 /* Provider+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Provider+Type.swift"; path = "Awarenews/Provider+Type.swift"; sourceTree = SOURCE_ROOT; };
+		57043C0522913769007E2671 /* ATabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATabController.swift; sourceTree = "<group>"; };
+		57043C0D22914FB5007E2671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		572B7DC622904D0F00CB5C6E /* Fake News Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fake News Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572B7DC922904D0F00CB5C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		572B7DCB22904D0F00CB5C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +90,31 @@
 		572B7DE522904D1000CB5C6E /* Fake News DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fake News DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		572B7DE922904D1000CB5C6E /* Fake_News_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fake_News_DetectorUITests.swift; sourceTree = "<group>"; };
 		572B7DEB22904D1000CB5C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572B7DF72290637800CB5C6E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		572B7DFB229099E600CB5C6E /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		5D9061E247D9D04DAB54BB7A /* Pods-Fake News Detector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News Detector.debug.xcconfig"; path = "Target Support Files/Pods-Fake News Detector/Pods-Fake News Detector.debug.xcconfig"; sourceTree = "<group>"; };
+		8C05BB64BC103F8C8C251406 /* Pods-Fake News Detector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News Detector.release.xcconfig"; path = "Target Support Files/Pods-Fake News Detector/Pods-Fake News Detector.release.xcconfig"; sourceTree = "<group>"; };
+		8D232C69E516465806337BE3 /* Pods_Fake_News_DetectorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fake_News_DetectorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4539D84EEA118E96FF889E /* Pods_Fake_News_DetectorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fake_News_DetectorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59070BF96626A96B33AFF4E /* Pods-Fake News DetectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News DetectorTests.debug.xcconfig"; path = "Target Support Files/Pods-Fake News DetectorTests/Pods-Fake News DetectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A150B27A6260BD23835F91 /* Pods_Fake_News_Detector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fake_News_Detector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FF1D816E4A8305B6F78B42 /* Pods-Fake News DetectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News DetectorTests.release.xcconfig"; path = "Target Support Files/Pods-Fake News DetectorTests/Pods-Fake News DetectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		E53FBC95F187F788A4D654D2 /* Pods-Fake News DetectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fake News DetectorUITests.release.xcconfig"; path = "Target Support Files/Pods-Fake News DetectorUITests/Pods-Fake News DetectorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		57043BF12290E606007E2671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		572B7DC322904D0F00CB5C6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148199992151B369C448F680 /* Pods_Fake_News_Detector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4990C3FF82133E4E146F5A /* Pods_Fake_News_DetectorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +130,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773834D017A708B063076E5F /* Pods_Fake_News_DetectorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C3B3632A5388FFBA08DC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A150B27A6260BD23835F91 /* Pods_Fake_News_Detector.framework */,
+				9A4539D84EEA118E96FF889E /* Pods_Fake_News_DetectorTests.framework */,
+				8D232C69E516465806337BE3 /* Pods_Fake_News_DetectorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD6A35449175EA2FD55284B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9061E247D9D04DAB54BB7A /* Pods-Fake News Detector.debug.xcconfig */,
+				8C05BB64BC103F8C8C251406 /* Pods-Fake News Detector.release.xcconfig */,
+				A59070BF96626A96B33AFF4E /* Pods-Fake News DetectorTests.debug.xcconfig */,
+				D9FF1D816E4A8305B6F78B42 /* Pods-Fake News DetectorTests.release.xcconfig */,
+				0BE2D474DDD2CD2942E314E2 /* Pods-Fake News DetectorUITests.debug.xcconfig */,
+				E53FBC95F187F788A4D654D2 /* Pods-Fake News DetectorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57043BF52290E606007E2671 /* AwareNews */ = {
+			isa = PBXGroup;
+			children = (
+				57043C022290E6A5007E2671 /* AwareNews.entitlements */,
+				57043BF62290E606007E2671 /* ShareViewController.swift */,
+				57043BF82290E606007E2671 /* MainInterface.storyboard */,
+				57043BFB2290E606007E2671 /* Info.plist */,
+				57043C032290F030007E2671 /* Provider+Type.swift */,
+			);
+			path = AwareNews;
+			sourceTree = "<group>";
+		};
 		572B7DBD22904D0F00CB5C6E = {
 			isa = PBXGroup;
 			children = (
 				572B7DC822904D0F00CB5C6E /* Fake News Detector */,
 				572B7DDD22904D1000CB5C6E /* Fake News DetectorTests */,
 				572B7DE822904D1000CB5C6E /* Fake News DetectorUITests */,
+				57043BF52290E606007E2671 /* AwareNews */,
 				572B7DC722904D0F00CB5C6E /* Products */,
+				2BD6A35449175EA2FD55284B /* Pods */,
+				16C3B3632A5388FFBA08DC9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +191,7 @@
 				572B7DC622904D0F00CB5C6E /* Fake News Detector.app */,
 				572B7DDA22904D1000CB5C6E /* Fake News DetectorTests.xctest */,
 				572B7DE522904D1000CB5C6E /* Fake News DetectorUITests.xctest */,
+				57043BF42290E606007E2671 /* AwareNews.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +199,13 @@
 		572B7DC822904D0F00CB5C6E /* Fake News Detector */ = {
 			isa = PBXGroup;
 			children = (
+				57043C0D22914FB5007E2671 /* GoogleService-Info.plist */,
+				57043BEF2290E2FA007E2671 /* Fake News Detector.entitlements */,
 				572B7DC922904D0F00CB5C6E /* AppDelegate.swift */,
 				572B7DCB22904D0F00CB5C6E /* ViewController.swift */,
+				57043C0522913769007E2671 /* ATabController.swift */,
+				572B7DF72290637800CB5C6E /* ResultsViewController.swift */,
+				572B7DFB229099E600CB5C6E /* FeedbackViewController.swift */,
 				572B7DCD22904D0F00CB5C6E /* Main.storyboard */,
 				572B7DD022904D1000CB5C6E /* Assets.xcassets */,
 				572B7DD222904D1000CB5C6E /* LaunchScreen.storyboard */,
@@ -128,17 +235,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		572B7DC522904D0F00CB5C6E /* Fake News Detector */ = {
+		57043BF32290E606007E2671 /* AwareNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 572B7DEE22904D1000CB5C6E /* Build configuration list for PBXNativeTarget "Fake News Detector" */;
+			buildConfigurationList = 57043BFF2290E606007E2671 /* Build configuration list for PBXNativeTarget "AwareNews" */;
 			buildPhases = (
-				572B7DC222904D0F00CB5C6E /* Sources */,
-				572B7DC322904D0F00CB5C6E /* Frameworks */,
-				572B7DC422904D0F00CB5C6E /* Resources */,
+				57043BF02290E606007E2671 /* Sources */,
+				57043BF12290E606007E2671 /* Frameworks */,
+				57043BF22290E606007E2671 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = AwareNews;
+			productName = AwareNews;
+			productReference = 57043BF42290E606007E2671 /* AwareNews.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		572B7DC522904D0F00CB5C6E /* Fake News Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572B7DEE22904D1000CB5C6E /* Build configuration list for PBXNativeTarget "Fake News Detector" */;
+			buildPhases = (
+				68A953A9881517DA5A036B29 /* [CP] Check Pods Manifest.lock */,
+				572B7DC222904D0F00CB5C6E /* Sources */,
+				572B7DC322904D0F00CB5C6E /* Frameworks */,
+				572B7DC422904D0F00CB5C6E /* Resources */,
+				1B0DC354DA590AE264238C2F /* [CP] Embed Pods Frameworks */,
+				575AAA902290DD560013889D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57043BFD2290E606007E2671 /* PBXTargetDependency */,
 			);
 			name = "Fake News Detector";
 			productName = "Fake News Detector";
@@ -149,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572B7DF122904D1000CB5C6E /* Build configuration list for PBXNativeTarget "Fake News DetectorTests" */;
 			buildPhases = (
+				7FFC1BFF3E0E55CBB696B8DD /* [CP] Check Pods Manifest.lock */,
 				572B7DD622904D1000CB5C6E /* Sources */,
 				572B7DD722904D1000CB5C6E /* Frameworks */,
 				572B7DD822904D1000CB5C6E /* Resources */,
@@ -167,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 572B7DF422904D1000CB5C6E /* Build configuration list for PBXNativeTarget "Fake News DetectorUITests" */;
 			buildPhases = (
+				7B17D6E9C8EA513810B71501 /* [CP] Check Pods Manifest.lock */,
 				572B7DE122904D1000CB5C6E /* Sources */,
 				572B7DE222904D1000CB5C6E /* Frameworks */,
 				572B7DE322904D1000CB5C6E /* Resources */,
@@ -191,8 +321,21 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Adedayo Omosanya";
 				TargetAttributes = {
+					57043BF32290E606007E2671 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					572B7DC522904D0F00CB5C6E = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					572B7DD922904D1000CB5C6E = {
 						CreatedOnToolsVersion = 10.1;
@@ -220,16 +363,27 @@
 				572B7DC522904D0F00CB5C6E /* Fake News Detector */,
 				572B7DD922904D1000CB5C6E /* Fake News DetectorTests */,
 				572B7DE422904D1000CB5C6E /* Fake News DetectorUITests */,
+				57043BF32290E606007E2671 /* AwareNews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		57043BF22290E606007E2671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57043BFA2290E606007E2671 /* MainInterface.storyboard in Resources */,
+				57043C0F22914FB5007E2671 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		572B7DC422904D0F00CB5C6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				572B7DD422904D1000CB5C6E /* LaunchScreen.storyboard in Resources */,
+				57043C0E22914FB5007E2671 /* GoogleService-Info.plist in Resources */,
 				572B7DD122904D1000CB5C6E /* Assets.xcassets in Resources */,
 				572B7DCF22904D0F00CB5C6E /* Main.storyboard in Resources */,
 			);
@@ -251,13 +405,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B0DC354DA590AE264238C2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fake News Detector/Pods-Fake News Detector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fake News Detector/Pods-Fake News Detector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A953A9881517DA5A036B29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fake News Detector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B17D6E9C8EA513810B71501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fake News DetectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FFC1BFF3E0E55CBB696B8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fake News DetectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		57043BF02290E606007E2671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57043C042290F030007E2671 /* Provider+Type.swift in Sources */,
+				57043BF72290E606007E2671 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		572B7DC222904D0F00CB5C6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				572B7DCC22904D0F00CB5C6E /* ViewController.swift in Sources */,
 				572B7DCA22904D0F00CB5C6E /* AppDelegate.swift in Sources */,
+				57043C0622913769007E2671 /* ATabController.swift in Sources */,
+				572B7DFC229099E600CB5C6E /* FeedbackViewController.swift in Sources */,
+				572B7DF82290637800CB5C6E /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +543,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		57043BFD2290E606007E2671 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57043BF32290E606007E2671 /* AwareNews */;
+			targetProxy = 57043BFC2290E606007E2671 /* PBXContainerItemProxy */;
+		};
 		572B7DDC22904D1000CB5C6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 572B7DC522904D0F00CB5C6E /* Fake News Detector */;
@@ -293,6 +561,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		57043BF82290E606007E2671 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57043BF92290E606007E2671 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		572B7DCD22904D0F00CB5C6E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +588,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		57043C002290E606007E2671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AwareNews/AwareNews.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ96QS4S76;
+				INFOPLIST_FILE = AwareNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakenewsdetector.Fake-News-Detector.AwareNewss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57043C012290E606007E2671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AwareNews/AwareNews.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQ96QS4S76;
+				INFOPLIST_FILE = AwareNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fakenewsdetector.Fake-News-Detector.AwareNewss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		572B7DEC22904D1000CB5C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,8 +746,11 @@
 		};
 		572B7DEF22904D1000CB5C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9061E247D9D04DAB54BB7A /* Pods-Fake News Detector.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fake News Detector/Fake News Detector.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQ96QS4S76;
 				INFOPLIST_FILE = "Fake News Detector/Info.plist";
@@ -441,15 +760,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fakenewsdetector.Fake-News-Detector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		572B7DF022904D1000CB5C6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C05BB64BC103F8C8C251406 /* Pods-Fake News Detector.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Fake News Detector/Fake News Detector.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQ96QS4S76;
 				INFOPLIST_FILE = "Fake News Detector/Info.plist";
@@ -459,13 +781,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fakenewsdetector.Fake-News-Detector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		572B7DF222904D1000CB5C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59070BF96626A96B33AFF4E /* Pods-Fake News DetectorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +810,7 @@
 		};
 		572B7DF322904D1000CB5C6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FF1D816E4A8305B6F78B42 /* Pods-Fake News DetectorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +832,7 @@
 		};
 		572B7DF522904D1000CB5C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE2D474DDD2CD2942E314E2 /* Pods-Fake News DetectorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +853,7 @@
 		};
 		572B7DF622904D1000CB5C6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53FBC95F187F788A4D654D2 /* Pods-Fake News DetectorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +875,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		57043BFF2290E606007E2671 /* Build configuration list for PBXNativeTarget "AwareNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57043C002290E606007E2671 /* Debug */,
+				57043C012290E606007E2671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		572B7DC122904D0F00CB5C6E /* Build configuration list for PBXProject "Fake News Detector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>745469672837-opc71dcfi6gk0uih310pvo17o90qp1gj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.745469672837-opc71dcfi6gk0uih310pvo17o90qp1gj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJaSSTAuvGMRX8s4L8o5zHYpEkrpDS3ZY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>745469672837</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fakenewsdetector.Fake-News-Detector</string>
+	<key>PROJECT_ID</key>
+	<string>fake-news-2eae5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fake-news-2eae5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:745469672837:ios:3ca6f8beaa4af4a5</string>
+	<key>DATABASE_URL</key>
+	<string>https://fake-news-2eae5.firebaseio.com</string>
+</dict>
+</plist>
